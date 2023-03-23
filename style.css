@@ -1,0 +1,282 @@
+/* Basic reset styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+header {
+	background-color: #222;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+h1 {
+	font-size: 2.5rem;
+}
+
+
+h2
+{
+	text-align: center;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+nav li {
+	margin: 0 10px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+nav a:hover {
+	background-color: #fff;
+	color: #222;
+}
+
+
+.hero {
+	background-image: url('hero-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 100px;
+	text-align: center;
+	
+}
+h2 {
+	font-size: 3rem;
+	margin-bottom: 30px;
+	color: black;
+}
+p {
+	font-size: 1.2rem;
+	margin-bottom: 50px;
+	color: black;
+}
+.cta {
+	background-color: #fff;
+	color: #222;
+	padding: 10px 30px;
+	border-radius: 20px;
+	font-size: 1.2rem;
+	transition: all 0.3s ease;
+}
+.cta:hover {
+	background-color: #222;
+	color: #fff;
+}
+
+/* Services section styles */
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+.service {
+	flex: 1;
+	padding: 30px;
+	margin: 20px;
+	background-color: #f1f1f1;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.service img {
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+}
+.service h3 {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+.service p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+section.about {
+	margin-bottom: 50px;
+}
+
+h1, h2 {
+	text-align: center;
+	margin-top: 0;
+}
+
+.about img {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 30px;
+}
+
+.about p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+	nav ul {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	nav li {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	main {
+		padding: 0 10px;
+	}
+}
+
+
+
+.gallery-images a:hover {
+	opacity: 1;
+	box-shadow: 10px 50px 10px 50px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+	.gallery-images a {
+		width: 100%;
+	}
+}
+
+gallery-flex
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.gallery img {
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: 20px;
+	border-radius: 85%;
+}
+
+.gallery{
+	flex: wrap;
+	padding: 30px;
+	margin: 20px;
+	background-color: #f1f1f1;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: chocolate;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form form label {
+  font-weight: bold;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+  padding: 10px;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
