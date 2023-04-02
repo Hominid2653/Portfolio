@@ -1,4 +1,4 @@
-/* Basic reset styles */
+/* My external css...I linked it using classes */
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -79,7 +79,7 @@ p {
 	color: #fff;
 }
 
-/* Services section styles */
+/* Services styles */
 .services {
 	display: flex;
 	flex-wrap: wrap;
@@ -188,6 +188,8 @@ h1, h2 {
 	margin-bottom: 20px;
 }
 
+/*footer styles*/
+
 footer {
 	background-color: #333;
 	color: #fff;
@@ -195,7 +197,7 @@ footer {
 	text-align: center;
 }
 
-/* Media queries */
+
 @media only screen and (max-width: 600px) {
 	nav ul {
 		flex-direction: column;
@@ -219,7 +221,7 @@ footer {
 	box-shadow: 10px 50px 10px 50px;
 }
 
-/* Media queries */
+
 @media only screen and (max-width: 600px) {
 	.gallery-images a {
 		width: 100%;
@@ -281,26 +283,4 @@ gallery-flex
   width: 100%;
 }
 
-/* Set the font size to 16px for desktop screens */
-body {
-    font-size: 16px;
-}
 
-/* Use relative units for element sizes */
-.container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-/* Use a media query to change the font size and container width for smaller screens */
-@media only screen and (max-width: 720px) {
-    body {
-        font-size: 14px;
-    }
-    
-    .container {
-        width: 100%;
-        word-wrap: break-word;
-        text-align: center;
-    }
-}
