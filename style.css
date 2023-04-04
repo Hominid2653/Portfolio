@@ -47,11 +47,11 @@ nav a:hover {
 }
 
 
+/*Basic style for the most part of the website */
 
+.mystyle {
+	background-image: url('123');
 
-.hero {
-	background-image: url('hero-bg.jpg');
-	background-size: cover;
 	background-position: center;
 	color: #fff;
 	padding: 100px;
@@ -68,7 +68,7 @@ p {
 	margin-bottom: 50px;
 	color: black;
 }
-.cta {
+.linked {
 	background-color: #fff;
 	color: #222;
 	padding: 10px 30px;
@@ -76,7 +76,7 @@ p {
 	font-size: 1.2rem;
 	transition: all 0.3s ease;
 }
-.cta:hover {
+.linked:hover {
 	background-color: #222;
 	color: #fff;
 }
@@ -88,6 +88,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	padding: 50px;
+	background-color: #f1f1f1; 
 }
 .service {
 	flex: 1;
@@ -129,7 +130,7 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-  	background-color: transparent;
+  	background-image: url(123.jpeg);
 
 }
 
@@ -244,15 +245,17 @@ gallery-flex
 	max-width: 300px;
 	margin-bottom: 20px;
 	border-radius: 85%;
+	background-color: transparent;
 }
 
 .gallery{
 	flex: wrap;
 	padding: 30px;
 	margin: 20px;
-	background-color: #f1f1f1;
+	background-color: #f1f1f1; 
 	text-align: center;
 	border-radius: 10px;
+
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
