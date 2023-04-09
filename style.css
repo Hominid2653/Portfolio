@@ -50,8 +50,8 @@ nav a:hover {
 /*Basic style for the most part of the website */
 
 .mystyle {
+	background-repeat: no-repeat;
 	background-image: url('123');
-
 	background-position: center;
 	color: #fff;
 	padding: 100px;
